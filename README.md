@@ -24,3 +24,10 @@ The lists are sorted alphabetically.
 -   [xray-beta](https://github.com/XTLS/Xray-core)
 
 </details>
+
+<details>
+<summary><strong><a href="https://www.v2fly.org/">V2Fly</a></strong></summary>
+
+-   [v2ray-extra](https://github.com/v2fly/v2ray-core)
+
+</details>
