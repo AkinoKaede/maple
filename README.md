@@ -13,3 +13,14 @@ scoop install maple/<app>
 ## Manifests
 
 The lists are sorted alphabetically.
+
+`#` Require administrator rights (`scoop install sudo`)
+
+`*` May store data outside of Scoop directory
+
+<details>
+<summary><strong><a href="https://github.com/XTLS">Project X</a></strong></summary>
+
+-   [xray-beta](https://github.com/XTLS/Xray-core)
+
+</details>
