@@ -1,0 +1,32 @@
+{
+    "version": "4.38.1",
+    "description": "The extra resources of v2ray (beta)",
+    "homepage": "https://github.com/v2fly/v2ray-core",
+    "license": "MIT",
+    "depends": "maple/v2ray-beta",
+    "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.38.1/v2ray-extra.zip",
+    "hash": "38e0cd282d6fd7b090f23954e42fc4893cf86161c727b65c553b6828a35a948c",
+    "installer": {
+        "script": [
+            "function LinkFile([String] $file, [String] $source = $file) {",
+            "    Write-Host \"Creating hardlink for $file\"",
+            "    New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray-beta $global)\\current\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "}",
+            "LinkFile 'index.html' 'browserforwarder\\index.html'",
+            "LinkFile 'index.js' 'browserforwarder\\index.js'"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Remove-Item \"$(appdir v2ray-beta $global)\\current\\index.html\" -Force",
+            "Remove-Item \"$(appdir v2ray-beta $global)\\current\\index.js\" -Force"
+        ]
+    },
+    "checkver": {
+        "url": "https://github.com/v2fly/v2ray-core/releases",
+        "regex": "/releases/tag/(?:v|V)?([\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-extra.zip"
+    }
+}

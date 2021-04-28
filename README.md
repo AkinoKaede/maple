@@ -30,5 +30,6 @@ The lists are sorted alphabetically.
 
 -   [v2ray-beta](https://github.com/v2fly/v2ray-core)
 -   [v2ray-extra](https://github.com/v2fly/v2ray-core)
+-   [v2ray-extra-beta](https://github.com/v2fly/v2ray-core)
 
 </details>
