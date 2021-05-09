@@ -26,6 +26,13 @@ The lists are sorted alphabetically.
 </details>
 
 <details>
+<summary><strong><a href="https://shadowsocks.org">Shadowsocks</a></strong></summary>
+
+-   [obfs-local](https://github.com/shadowsocks/simple-obfs)
+
+</details>
+
+<details>
 <summary><strong><a href="https://www.v2fly.org/">V2Fly</a></strong></summary>
 
 -   [v2ray-beta](https://github.com/v2fly/v2ray-core)
