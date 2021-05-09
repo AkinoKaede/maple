@@ -19,7 +19,7 @@ The lists are sorted alphabetically.
 `*` May store data outside of Scoop directory
 
 <details>
-<summary><strong><a href="https://github.com/XTLS">Project X</a></strong></summary>
+<summary><strong><a href="https://xtls.github.io">Project X</a></strong></summary>
 
 -   [xray-beta](https://github.com/XTLS/Xray-core)
 
@@ -33,7 +33,7 @@ The lists are sorted alphabetically.
 </details>
 
 <details>
-<summary><strong><a href="https://www.v2fly.org/">V2Fly</a></strong></summary>
+<summary><strong><a href="https://www.v2fly.org">V2Fly</a></strong></summary>
 
 -   [v2ray-beta](https://github.com/v2fly/v2ray-core)
 -   [v2ray-extra](https://github.com/v2fly/v2ray-core)
