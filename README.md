@@ -19,6 +19,13 @@ The lists are sorted alphabetically.
 `*` May store data outside of Scoop directory
 
 <details>
+<summary>Network Tools</strong></summary>
+
+-   [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
+
+</details>
+
+<details>
 <summary><strong><a href="https://xtls.github.io">Project X</a></strong></summary>
 
 -   [xray-beta](https://github.com/XTLS/Xray-core)
