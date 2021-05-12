@@ -51,3 +51,10 @@ The lists are sorted alphabetically.
 -   [vmessspeed](https://github.com/v2fly/vmessping)
 
 </details>
+
+<details>
+<summary>Miscellaneous</strong></summary>
+
+-   [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
+
+</details>
