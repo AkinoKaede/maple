@@ -3,7 +3,7 @@
     "license": "OFL-1.1",
     "homepage": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd",
     "url": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd/releases/download/v0.1.0/sarasa-gothic-term-sc-nerd-ttf.zip",
-    "hash": "58ea55cb7214ad4a9397a8af80106e94f58596d22b30284aae81249da98e6c24",
+    "hash": "sha512:4dd84d842a24c7a7ef71475227fbae6a34ef60cf301802aebc39ab2d352425c8235e8c33ec3648525839c1a26d73611a20ff22d6fefb61c2a1708ce9b4b3cfaa",
     "depends": "sudo",
     "installer": {
         "script": [
@@ -21,7 +21,7 @@
             "    Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"The 'Sarasa-Gothic Term SC' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"The 'Sarasa Gothic Term SC Nerd' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     },
     "checkver": "github",
