@@ -19,6 +19,13 @@ The lists are sorted alphabetically.
 `*` May store data outside of Scoop directory
 
 <details>
+<summary>Fonts</strong></summary>
+
+-   [sarasagothic-mono-sc-nf](https://github.com/laishulu/Sarasa-Mono-SC-Nerd) `#`
+
+</details>
+
+<details>
 <summary>Network Tools</strong></summary>
 
 -   [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
