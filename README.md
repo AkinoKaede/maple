@@ -22,6 +22,7 @@ The lists are sorted alphabetically.
 <summary>Fonts</strong></summary>
 
 -   [sarasagothic-mono-sc-nf](https://github.com/laishulu/Sarasa-Mono-SC-Nerd) `#`
+-   [sarasagothic-term-sc-nf](https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd) `#`
 
 </details>
 

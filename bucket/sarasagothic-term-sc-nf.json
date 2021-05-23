@@ -1,0 +1,35 @@
+{
+    "version": "0.1.0",
+    "license": "OFL-1.1",
+    "homepage": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd",
+    "url": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd/releases/download/v0.1.0/sarasa-gothic-term-sc-nerd-ttf.zip",
+    "hash": "58ea55cb7214ad4a9397a8af80106e94f58596d22b30284aae81249da98e6c24",
+    "depends": "sudo",
+    "installer": {
+        "script": [
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
+            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null",
+            "    Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
+            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "    Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
+            "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
+            "}",
+            "Write-Host \"The 'Sarasa-Gothic Term SC' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd/releases/download/v$version/sarasa-gothic-term-sc-nerd-ttf.zip",
+        "hash": {
+            "url": "$url.dgst",
+            "regex": "SHA512=\\s*$sha512"
+        }
+    }
+}
