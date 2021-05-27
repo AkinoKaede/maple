@@ -18,8 +18,13 @@
     },
     "uninstaller": {
         "script": [
-            "Remove-Item \"$(appdir v2ray-beta $global)\\current\\index.html\" -Force",
-            "Remove-Item \"$(appdir v2ray-beta $global)\\current\\index.js\" -Force"
+            "function DelFile([String] $file) {",
+            "    if(Test-Path -Path \"$(appdir v2ray-beta $global)\\current\\$file\"){",
+            "        Remove-Item \"$(appdir v2ray-beta $global)\\current\\$file\" -Force",
+            "    }",
+            "}",
+            "DelFile 'index.html'",
+            "DelFile 'index.js'"
         ]
     },
     "checkver": {
