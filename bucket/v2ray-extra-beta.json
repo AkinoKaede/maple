@@ -8,23 +8,21 @@
     "hash": "730c15951456a9056445cee4559256cd57e8176e1b5677a15c9de9b76e19a384",
     "installer": {
         "script": [
-            "function LinkFile([String] $file, [String] $source = $file) {",
-            "    Write-Host \"Creating hardlink for $file\"",
-            "    New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray-beta $global)\\current\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "function LinkDir([String] $destination, [String] $source = $destination) {",
+            "    Write-Host \"Creating Junction for $destination\"",
+            "    New-Item -Force -ItemType Junction -Path \"$(appdir v2ray-beta $global)\\current\\$destination\" -Target \"$dir\\$source\" | Out-Null",
             "}",
-            "LinkFile 'index.html' 'browserforwarder\\index.html'",
-            "LinkFile 'index.js' 'browserforwarder\\index.js'"
+            "LinkDir 'browserforwarder'"
         ]
     },
     "uninstaller": {
         "script": [
-            "function DelFile([String] $file) {",
-            "    if(Test-Path -Path \"$(appdir v2ray-beta $global)\\current\\$file\"){",
-            "        Remove-Item \"$(appdir v2ray-beta $global)\\current\\$file\" -Force",
+            "function DelDir([String] $destination) {",
+            "    if(Test-Path -Path \"$(appdir v2ray-beta $global)\\current\\$destination\"){",
+            "        Remove-Item \"$(appdir v2ray-beta $global)\\current\\$destination\" -Recurse -Force",
             "    }",
             "}",
-            "DelFile 'index.html'",
-            "DelFile 'index.js'"
+            "DelDir 'browserforwarder'"
         ]
     },
     "checkver": {
