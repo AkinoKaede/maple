@@ -63,5 +63,6 @@ The lists are sorted alphabetically.
 <summary>Miscellaneous</strong></summary>
 
 -   [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
+-   [wsl2-ssh-pageant](https://github.com/BlackReloaded/wsl2-ssh-pageant)
 
 </details>

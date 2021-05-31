@@ -1,0 +1,21 @@
+{
+    "version": "1.2.0",
+    "description": "A bridge between Windows pageant and WSL2.",
+    "homepage": "https://github.com/BlackReloaded/wsl2-ssh-pageant",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BlackReloaded/wsl2-ssh-pageant/releases/download/v1.2.0/wsl2-ssh-pageant.exe.zip",
+            "hash": "07cb0d92dd296cded5cbb4019a62033adb422c3a7649f449334501f8115cd4fe"
+        }
+    },
+    "bin": "wsl2-ssh-pageant.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BlackReloaded/wsl2-ssh-pageant/releases/download/v$version/wsl2-ssh-pageant.exe.zip"
+            }
+        }
+    }
+}
