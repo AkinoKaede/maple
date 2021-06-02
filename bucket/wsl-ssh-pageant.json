@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "description": "A Pageant -> TCP bridge for use with WSL, allowing for Pageant to be used as an ssh-ageant within the WSL environment.",
+    "homepage": "https://github.com/AkinoKaede/wsl-ssh-pageant",
+    "license": "BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AkinoKaede/wsl-ssh-pageant/releases/download/v2.0.0/wsl-ssh-pageant-amd64.zip",
+            "hash": "sha512:145fdc1568aaa9beabde0a5d23fd16156e314752c0f168f53fd48ea2fa6cf5872b09f7891efcbf1544eca54731a7b6cb193fd3dac9a4398efeb23e6a070aca58"
+        },
+        "32bit": {
+            "url": "https://github.com/AkinoKaede/wsl-ssh-pageant/releases/download/v2.0.0/wsl-ssh-pageant-386.zip",
+            "hash": "sha512:d5c050ef3502811eb8d39ba7b1c669109961b4f262382d09e5d9049d28422512f3958c01a7d463681ff8a070bef4d141c414203a7c55722caaffc183a9e9dc42"
+        }
+    },
+    "bin": [
+        "wsl-ssh-pageant.exe",
+        "wsl-ssh-pageant-gui.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AkinoKaede/wsl-ssh-pageant/releases/download/v$version/wsl-ssh-pageant-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/AkinoKaede/wsl-ssh-pageant/releases/download/v$version/wsl-ssh-pageant-386.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.dgst",
+            "regex": "SHA512=\\s*$sha512"
+        }
+    }
+}
