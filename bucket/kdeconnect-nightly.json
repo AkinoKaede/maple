@@ -1,12 +1,12 @@
 {
-    "version": "21.04.2-620",
+    "version": "21.04.2-621",
     "description": "Multi-platform app that allows your devices to communicate",
     "homepage": "https://kdeconnect.kde.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/lastSuccessfulBuild/artifact/kdeconnect-kde-21.04.2-620-windows-msvc2019_64-cl.7z",
-            "hash": "85fedef5d2d363beacde388157b8be27b7a5a3fe45937a4a78c4dc83ef22c7e8"
+            "url": "https://binary-factory.kde.org/job/kdeconnect-kde_Release_win64/lastSuccessfulBuild/artifact/kdeconnect-kde-21.04.2-621-windows-msvc2019_64-cl.7z",
+            "hash": "4b6422fa0004dbbfe69385c763683c5aa6b0a720ac29fb007a7409b071bad83c"
         }
     },
     "bin": "bin\\kdeconnect-cli.exe",
