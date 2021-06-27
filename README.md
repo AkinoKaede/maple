@@ -19,6 +19,13 @@ The lists are sorted alphabetically.
 `*` May store data outside of Scoop directory
 
 <details>
+<summary>Development</strong></summary>
+
+-   [bloomrpc](https://github.com/uw-labs/bloomrpc) `*`
+
+</details>
+
+<details>
 <summary>Fonts</strong></summary>
 
 -   [sarasagothic-term-sc-nf](https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd) `#`
