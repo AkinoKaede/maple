@@ -33,7 +33,7 @@ The lists are sorted alphabetically.
 </details>
 
 <details>
-<summary>Network Tools</strong></summary>
+<summary>Network</strong></summary>
 
 -   [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
 
