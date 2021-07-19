@@ -70,6 +70,7 @@ The lists are sorted alphabetically.
 <summary>Miscellaneous</strong></summary>
 
 -   [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
+-   [paperang](https://www.paperang.com/) `*`
 -   [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
 -   [wsl2-ssh-pageant](https://github.com/BlackReloaded/wsl2-ssh-pageant)
 
