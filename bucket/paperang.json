@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://www.paperang.com/en/pc/download",
-        "regex": "Paperang%20Setup%20([\\d.])+\\.exe"
+        "regex": "Paperang%20Setup%20([\\d.]+)\\.exe"
     },
     "autoupdate": {
         "url": "https://mb-mm-s.oss-cn-shanghai.aliyuncs.com/pc/windows/Paperang Setup $version.exe#/dl.7z"
