@@ -64,6 +64,7 @@ The lists are sorted alphabetically.
 <details>
 <summary>Miscellaneous</strong></summary>
 
+- [docker-desktop](https://www.docker.com/products/docker-desktop)
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
 - [paperang](https://www.paperang.com/) `*`
 - [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
