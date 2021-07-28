@@ -21,58 +21,52 @@ The lists are sorted alphabetically.
 <details>
 <summary>Development</strong></summary>
 
--   [bloomrpc](https://github.com/uw-labs/bloomrpc) `*`
+- [bloomrpc](https://github.com/uw-labs/bloomrpc) `*`
 
 </details>
 
 <details>
 <summary>Fonts</strong></summary>
 
--   [sarasagothic-term-sc-nf](https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd) `#`
+- [sarasagothic-term-sc-nf](https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd) `#`
 
 </details>
 
 <details>
 <summary>Network</strong></summary>
 
--   [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
--   [xray-beta](https://github.com/XTLS/Xray-core)
+- [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
+- [xray-beta](https://github.com/XTLS/Xray-core)
 
 </details>
 
-<details>
-<summary><strong><a href="https://xtls.github.io">Project X</a></strong></summary>
-
-
-
-</details>
 
 <details>
 <summary><strong><a href="https://shadowsocks.org">Shadowsocks</a></strong></summary>
 
--   [obfs-local](https://github.com/shadowsocks/simple-obfs)
--   [v2ray-plugin](https://github.com/shadowsocks/v2ray-plugin)
+- [obfs-local](https://github.com/shadowsocks/simple-obfs)
+- [v2ray-plugin](https://github.com/shadowsocks/v2ray-plugin)
 
 </details>
 
 <details>
 <summary><strong><a href="https://www.v2fly.org">V2Fly</a></strong></summary>
 
--   [v2ray-beta](https://github.com/v2fly/v2ray-core)
--   [v2ray-extra](https://github.com/v2fly/v2ray-core)
--   [v2ray-extra-beta](https://github.com/v2fly/v2ray-core)
--   [vmessconv](https://github.com/v2fly/vmessping)
--   [vmessping](https://github.com/v2fly/vmessping)
--   [vmessspeed](https://github.com/v2fly/vmessping)
+- [v2ray-beta](https://github.com/v2fly/v2ray-core)
+- [v2ray-extra](https://github.com/v2fly/v2ray-core)
+- [v2ray-extra-beta](https://github.com/v2fly/v2ray-core)
+- [vmessconv](https://github.com/v2fly/vmessping)
+- [vmessping](https://github.com/v2fly/vmessping)
+- [vmessspeed](https://github.com/v2fly/vmessping)
 
 </details>
 
 <details>
 <summary>Miscellaneous</strong></summary>
 
--   [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
--   [paperang](https://www.paperang.com/) `*`
--   [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
--   [wsl2-ssh-pageant](https://github.com/BlackReloaded/wsl2-ssh-pageant)
+- [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
+- [paperang](https://www.paperang.com/) `*`
+- [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
+- [wsl2-ssh-pageant](https://github.com/BlackReloaded/wsl2-ssh-pageant)
 
 </details>
