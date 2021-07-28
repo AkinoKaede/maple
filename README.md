@@ -18,6 +18,8 @@ The lists are sorted alphabetically.
 
 `*` May store data outside of Scoop directory
 
+`S` Require [Shovel](https://github.com/Ash258/Scoop-Core)
+
 <details>
 <summary>Development</strong></summary>
 
@@ -64,7 +66,7 @@ The lists are sorted alphabetically.
 <details>
 <summary>Miscellaneous</strong></summary>
 
-- [docker-desktop](https://www.docker.com/products/docker-desktop)
+- [docker-desktop](https://www.docker.com/products/docker-desktop) `S` `*`
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
 - [paperang](https://www.paperang.com/) `*`
 - [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
