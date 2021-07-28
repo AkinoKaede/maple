@@ -36,13 +36,14 @@ The lists are sorted alphabetically.
 <summary>Network</strong></summary>
 
 -   [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
+-   [xray-beta](https://github.com/XTLS/Xray-core)
 
 </details>
 
 <details>
 <summary><strong><a href="https://xtls.github.io">Project X</a></strong></summary>
 
--   [xray-beta](https://github.com/XTLS/Xray-core)
+
 
 </details>
 
