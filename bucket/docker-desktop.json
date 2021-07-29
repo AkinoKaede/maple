@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://desktop.docker.com/win/stable/amd64/66501/Docker Desktop Installer.exe",
+            "url": "https://desktop.docker.com/win/stable/amd64/66501/Docker Desktop Installer.exe#/DockerDesktopInstall.exe",
             "hash": "d6e3ecaf222e1ab595902d28792cca5151f88c09f009e6aebdd429f2277383db"
         }
     },
@@ -29,7 +29,7 @@
         "keep": true
     },
     "uninstaller": {
-        "file": "dockerInstall.exe",
+        "file": "DockerDesktopInstall.exe",
         "args": [
             "uninstall",
             "--quiet"
@@ -43,7 +43,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://desktop.docker.com/win/stable/amd64/$matchBuild/Docker Desktop Installer.exe"
+                "url": "https://desktop.docker.com/win/stable/amd64/$matchBuild/Docker Desktop Installer.exe#/DockerDesktopInstall.exe"
             }
         }
     },
