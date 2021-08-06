@@ -19,21 +19,21 @@ The lists are sorted alphabetically.
 `*` May store data outside of Scoop directory
 
 <details>
-<summary>Development</strong></summary>
+<summary><strong>Development</strong></summary>
 
 - [bloomrpc](https://github.com/uw-labs/bloomrpc) `*`
 
 </details>
 
 <details>
-<summary>Fonts</strong></summary>
+<summary><strong>Fonts</strong></summary>
 
 - [sarasagothic-term-sc-nf](https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd) `#`
 
 </details>
 
 <details>
-<summary>Network</strong></summary>
+<summary><strong>Network</strong></summary>
 
 - [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
 - [xray-beta](https://github.com/XTLS/Xray-core)
@@ -62,7 +62,7 @@ The lists are sorted alphabetically.
 </details>
 
 <details>
-<summary>Miscellaneous</strong></summary>
+<summary><strong>Miscellaneous</strong></summary>
 
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
 - [paperang](https://www.paperang.com/) `*`
@@ -72,7 +72,7 @@ The lists are sorted alphabetically.
 </details>
 
 <details>
-<summary>Deprecated</strong></summary>
+<summary><strong>Deprecated</strong></summary>
 
 - [docker-desktop](https://www.docker.com/products/docker-desktop) Deprecated because I create the [pull request](https://github.com/Ash258/Scoop-Ash258/pull/314), but I was been blocked without any reply.
 
