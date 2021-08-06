@@ -65,6 +65,7 @@ The lists are sorted alphabetically.
 <summary><strong>Miscellaneous</strong></summary>
 
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
+- [keybase](https://keybase.io/) `*`
 - [paperang](https://www.paperang.com/) `*`
 - [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
 - [wsl2-ssh-pageant](https://github.com/BlackReloaded/wsl2-ssh-pageant)
