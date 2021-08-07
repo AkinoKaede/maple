@@ -64,7 +64,7 @@ The lists are sorted alphabetically.
 <details>
 <summary><strong>Miscellaneous</strong></summary>
 
-- [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde) `*`
+
 - [keybase](https://keybase.io/) `*`
 - [paperang](https://www.paperang.com/) `*`
 - [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
@@ -75,6 +75,7 @@ The lists are sorted alphabetically.
 <details>
 <summary><strong>Deprecated</strong></summary>
 
-- [docker-desktop](https://www.docker.com/products/docker-desktop) Deprecated because I create the [pull request](https://github.com/Ash258/Scoop-Ash258/pull/314), but I was been blocked without any reply.
+- [docker-desktop](https://www.docker.com/products/docker-desktop): deprecated because I create the [pull request](https://github.com/Ash258/Scoop-Ash258/pull/314), but I was been blocked without any reply.
+- [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde): available in [dorado](https://github.com/chawyehsu/dorado) as `kdeconnect`
 
 </details>
