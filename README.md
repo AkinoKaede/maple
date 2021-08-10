@@ -36,7 +36,6 @@ The lists are sorted alphabetically.
 <summary><strong>Network</strong></summary>
 
 - [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
-- [xray-beta](https://github.com/XTLS/Xray-core)
 
 </details>
 
@@ -77,5 +76,6 @@ The lists are sorted alphabetically.
 
 - [docker-desktop](https://www.docker.com/products/docker-desktop): deprecated because I create the [pull request](https://github.com/Ash258/Scoop-Ash258/pull/314), but I was been blocked without any replies.
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde): available in [dorado](https://github.com/chawyehsu/dorado) as `kdeconnect`
+- [xray-beta](https://github.com/XTLS/Xray-core): deprecated because this is not maintained anymore.
 
 </details>
