@@ -44,7 +44,7 @@ The lists are sorted alphabetically.
 <details>
 <summary><strong><a href="https://shadowsocks.org">Shadowsocks</a></strong></summary>
 
-- [obfs-local](https://github.com/shadowsocks/simple-obfs)
+- [simple-obfs](https://github.com/shadowsocks/simple-obfs)
 - [v2ray-plugin](https://github.com/shadowsocks/v2ray-plugin)
 
 </details>
