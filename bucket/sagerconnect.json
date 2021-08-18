@@ -1,0 +1,31 @@
+{
+    "version": "0.1.5",
+    "description": "Connect to SagerNet in the LAN",
+    "homepage": "https://github.com/SagerNet/SagerConnect",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SagerNet/SagerConnect/releases/download/v0.1.5/sc-0.1.5-windows-4.0-amd64.exe",
+            "hash": "e9b1ddaeeb8915cb8650b0a28bef61615c2875076bcec77fc69605a711f3a4c7"
+        },
+        "32bit": {
+            "url": "https://github.com/SagerNet/SagerConnect/releases/download/v0.1.5/sc-0.1.5-windows-4.0-386.exe",
+            "hash": "6e627cce8ad746275b69fa864948e96aa86e1ed138c6f9ce3989c92ff4a7caa6"
+        }
+    },
+    "installer": {
+        "script": "Move-Item \"$dir\\sc-$version-windows-4.0*\" -Destination \"$dir\\sagerconnect.exe\""
+    },
+    "bin": "sagerconnect.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SagerNet/SagerConnect/releases/download/v$version/sc-$version-windows-4.0-amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/SagerNet/SagerConnect/releases/download/v$version/sc-$version-windows-4.0-386.exe"
+            }
+        }
+    }
+}

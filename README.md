@@ -36,6 +36,7 @@ The lists are sorted alphabetically.
 <summary><strong>Network</strong></summary>
 
 - [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
+- [sagerconnect](https://github.com/SagerNet/SagerConnect)
 
 </details>
 
