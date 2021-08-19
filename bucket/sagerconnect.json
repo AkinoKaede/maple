@@ -1,30 +1,30 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Connect to SagerNet in the LAN",
     "homepage": "https://github.com/SagerNet/SagerConnect",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SagerNet/SagerConnect/releases/download/v0.1.5/sc-0.1.5-windows-4.0-amd64.exe",
-            "hash": "e9b1ddaeeb8915cb8650b0a28bef61615c2875076bcec77fc69605a711f3a4c7"
+            "url": "https://github.com/SagerNet/SagerConnect/releases/download/v0.1.6/sc-0.1.6-windows-x86_64.zip",
+            "hash": "815206c2106d6a5b3393da8ba0ad0ac4dc0821ee022b04b3a84d8cfa980c031f"
         },
         "32bit": {
-            "url": "https://github.com/SagerNet/SagerConnect/releases/download/v0.1.5/sc-0.1.5-windows-4.0-386.exe",
-            "hash": "6e627cce8ad746275b69fa864948e96aa86e1ed138c6f9ce3989c92ff4a7caa6"
+            "url": "https://github.com/SagerNet/SagerConnect/releases/download/v0.1.6/sc-0.1.6-windows-x86.zip",
+            "hash": "d485988961828626ba77aeaf52a92f9e3bd9255ad752f97880dc4911b5529449"
         }
     },
     "installer": {
-        "script": "Move-Item \"$dir\\sc-$version-windows-4.0*\" -Destination \"$dir\\sagerconnect.exe\""
+        "script": "Move-Item \"$dir\\sc.exe\" -Destination \"$dir\\sagerconnect.exe\""
     },
     "bin": "sagerconnect.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/SagerNet/SagerConnect/releases/download/v$version/sc-$version-windows-4.0-amd64.exe"
+                "url": "https://github.com/SagerNet/SagerConnect/releases/download/v$version/sc-$version-windows-x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/SagerNet/SagerConnect/releases/download/v$version/sc-$version-windows-4.0-386.exe"
+                "url": "https://github.com/SagerNet/SagerConnect/releases/download/v$version/sc-$version-windows-x86.zip"
             }
         }
     }
