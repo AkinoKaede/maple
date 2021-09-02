@@ -9,19 +9,20 @@
             "hash": "dacb6f8e0d6a3d6dc8aa680b1d5519d4c1a47a2bf28d37cf119c9b65eb75fc5e"
         }
     },
+    "extract_dir": "Keybase",
     "installer": {
-        "script": "New-Item -Force -ItemType HardLink -Path \"$HOME\\AppData\\Local\\Keybase\" -Name keybase.exe -Target \"$dir\\Keybase\\keybase.exe\" | Out-Null"
+        "script": "New-Item -Force -ItemType HardLink -Path \"$HOME\\AppData\\Local\\Keybase\" -Name keybase.exe -Target \"$dir\\keybase.exe\" | Out-Null"
     },
     "uninstaller": {
         "script": "Remove-Item \"$HOME\\AppData\\Local\\Keybase\\keybase.exe\" -Force"
     },
     "bin": [
-        "Keybase\\keybase.exe",
-        "Keybase\\git-remote-keybase.exe"
+        "keybase.exe",
+        "git-remote-keybase.exe"
     ],
     "shortcuts": [
         [
-            "Keybase\\Gui\\Keybase.exe",
+            "Gui\\Keybase.exe",
             "Keybase"
         ]
     ],
