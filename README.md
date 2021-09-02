@@ -50,6 +50,13 @@ The lists are sorted alphabetically.
 </details>
 
 <details>
+<summary><strong><a href="https://github.com/Shadowsocks-NET">Shadowsocks.NET</a></strong></summary>
+
+- [qv2ray](https://github.com/Shadowsocks-NET/Qv2ray)
+
+</details>
+
+<details>
 <summary><strong><a href="https://www.v2fly.org">V2Fly</a></strong></summary>
 
 - [v2ray-beta](https://github.com/v2fly/v2ray-core)
