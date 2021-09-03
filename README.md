@@ -53,6 +53,7 @@ The lists are sorted alphabetically.
 <summary><strong><a href="https://github.com/Shadowsocks-NET">Shadowsocks.NET</a></strong></summary>
 
 - [qv2ray](https://github.com/Shadowsocks-NET/Qv2ray)
+- [qv2ray-plugin-netfilter](https://github.com/Shadowsocks-NET/QvPlugin-Netfilter)
 
 </details>
 
