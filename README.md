@@ -37,7 +37,7 @@ The lists are sorted alphabetically.
 
 - [nat-type-tester](https://github.com/HMBSbige/NatTypeTester)
 - [sagerconnect](https://github.com/SagerNet/SagerConnect)
-- [v2raya](https://github.com/v2rayA/v2rayA) `*`
+- [v2raya](https://github.com/v2rayA/v2rayA)
 
 </details>
 
