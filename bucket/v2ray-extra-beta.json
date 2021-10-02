@@ -1,11 +1,11 @@
 {
-    "version": "4.42.2",
+    "version": "4.43.0",
     "description": "The extra resources of v2ray (beta)",
     "homepage": "https://github.com/v2fly/v2ray-core",
     "license": "MIT",
     "depends": "maple/v2ray-beta",
-    "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.42.2/v2ray-extra.zip",
-    "hash": "1a80f0000660e0b1289ae066210aad422292647ada5351de7b37a2cf5f75f8c0",
+    "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.43.0/v2ray-extra.zip",
+    "hash": "62e73a11d0a46d23ca4f6e3f6fb51807488e2d48bd937bab6f734d89a4d14112",
     "installer": {
         "script": [
             "function LinkDir([String] $destination, [String] $source = $destination) {",
