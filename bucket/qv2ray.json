@@ -35,7 +35,10 @@
         ]
     ],
     "persist": "config",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/Shadowsocks-NET/Qv2ray/releases",
+        "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
