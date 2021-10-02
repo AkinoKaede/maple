@@ -13,6 +13,17 @@
             "hash": "sha512:86432c728b0a265629b125f030726b907893d61e2f982b81c1be23aa1ecdbfcd58ba53e1585a29b715bbf7ad36676e4998ccf1fe631e2c8f2e35fcf99860db09"
         }
     },
+    "installer": {
+        "script": [
+            "Write-Host 'Verifying V2Ray binary...' -f Yellow",
+            "$sig = \"$dir\\Release\"",
+            "Invoke-WebRequest \"https://github.com/v2fly/v2ray-core/releases/download/v$version/Release\" -OutFile $sig",
+            "if (!(Invoke-Expression \"$dir\\v2ctl.exe verify --sig=$sig $dir\\v2ray.exe\" | Select-String 'OK')) {",
+            "    Write-Host 'V2Ray binary is corrupted!' -f Red",
+            "    exit 1",
+            "}"
+        ]
+    },
     "bin": [
         "v2ctl.exe",
         "v2ray.exe",
