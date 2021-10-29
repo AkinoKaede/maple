@@ -73,8 +73,6 @@ The lists are sorted alphabetically.
 <details>
 <summary><strong>Miscellaneous</strong></summary>
 
-
-- [keybase](https://keybase.io/) `*`
 - [paperang](https://www.paperang.com/) `*`
 - [wsl-ssh-pageant](https://github.com/AkinoKaede/wsl-ssh-pageant)
 - [wsl2-ssh-pageant](https://github.com/BlackReloaded/wsl2-ssh-pageant)
@@ -86,6 +84,7 @@ The lists are sorted alphabetically.
 
 - [docker-desktop](https://www.docker.com/products/docker-desktop): deprecated because I create the [pull request](https://github.com/Ash258/Scoop-Ash258/pull/314), but I was been blocked without any replies.
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde): available in [dorado](https://github.com/chawyehsu/dorado) as `kdeconnect`
+- [keybase](https://keybase.io/)
 - [xray-beta](https://github.com/XTLS/Xray-core): deprecated because this is not maintained anymore.
 
 </details>
