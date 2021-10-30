@@ -1,9 +1,9 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "OFL-1.1",
     "homepage": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd",
-    "url": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd/releases/download/v0.2.0/sarasa-gothic-term-sc-nerd-ttf.zip",
-    "hash": "sha512:6aa166a51aa0ddc6e31e7549ff7a8e91b7ee569c6470fee8c03e0a7425ca8c6e68d054868285c626dc7f2508dbdeca25da5fe06c71f9c8feb44ba8b19512f920",
+    "url": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd/releases/download/v0.2.1/sarasa-gothic-term-sc-nerd-ttf.zip",
+    "hash": "sha512:fa7f63ffb4070b9d029061cc4417e79f16d5fdd675b91caf68b55b005bf493a1941d5b168ee715e9cca57c01672414dd138ca0b39a86e747afdad1094895254c",
     "depends": "sudo",
     "installer": {
         "script": [
