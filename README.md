@@ -85,6 +85,6 @@ The lists are sorted alphabetically.
 - [docker-desktop](https://www.docker.com/products/docker-desktop): deprecated because I create the [pull request](https://github.com/Ash258/Scoop-Ash258/pull/314), but I was been blocked without any replies.
 - [kdeconnect-nightly](https://github.com/KDE/kdeconnect-kde): available in [dorado](https://github.com/chawyehsu/dorado) as `kdeconnect`
 - [keybase](https://keybase.io/)
-- [xray-beta](https://github.com/XTLS/Xray-core): deprecated because this is not maintained anymore.
+- [xray-beta](https://github.com/XTLS/Xray-core)
 
 </details>
