@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MatsuriDayo/nekoray/releases/download/$matchTag/nekoray-$version-$version-windows64.zip"
+                "url": "https://github.com/MatsuriDayo/nekoray/releases/download/$matchTag/nekoray-$version-windows64.zip"
             }
         }
     }
