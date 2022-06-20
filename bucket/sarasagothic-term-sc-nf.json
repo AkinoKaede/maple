@@ -3,12 +3,12 @@
     "license": "OFL-1.1",
     "homepage": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd",
     "url": "https://github.com/AkinoKaede/Sarasa-Gothic-Term-SC-Nerd/releases/download/v0.36.5/sarasa-gothic-term-sc-nerd-ttf.zip",
-    "hash": "sha512:b763c0637492bf33390e623742b7792fa1786834cc42d72c86a9c67407aa9667fa50e000dda7c21cf2520abb4599599e890426c9d1a45f3bce6d3dcd247af48f",
+    "hash": "sha512:1f69a74d1c7c5e5c5922463892719792c5470dbfafa4d49daa2a570f404971f82a92994cd263a8013d6da1f40e21003737d5713a00205c21d4835668cd42c21e",
     "depends": "sudo",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
-            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -filter 'sarasa-term-sc-nerd-*.ttf' | ForEach-Object {",
             "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null",
             "    Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
             "}"
@@ -17,7 +17,7 @@
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -filter 'sarasa-term-sc-nerd-*.ttf' | ForEach-Object {",
             "    Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
