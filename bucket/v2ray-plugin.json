@@ -1,16 +1,16 @@
 {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "A SIP003 plugin based on v2ray",
     "homepage": "https://github.com/shadowsocks/v2ray-plugin",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.1/v2ray-plugin-windows-amd64-v1.3.1.tar.gz",
-            "hash": "4998e126a17356346c75b54ac5407c688ec55b3effac494d9ece56af22fe3c2e"
+            "url": "https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.2/v2ray-plugin-windows-amd64-v1.3.2.tar.gz",
+            "hash": "7ca6c0955fcbce54bc9fef520e2c0f2d97057212b2a64ba53325b66d4cc1003b"
         },
         "32bit": {
-            "url": "https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.1/v2ray-plugin-windows-386-v1.3.1.tar.gz",
-            "hash": "a7aa4896a15e26be5ee92867e7542db75bbc55020a81066d15b6eba971ba6929"
+            "url": "https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.3.2/v2ray-plugin-windows-386-v1.3.2.tar.gz",
+            "hash": "fa64e130816c36b65f992f0aed2ec9099c35081afb59c08d76117bc0b421f871"
         }
     },
     "installer": {
